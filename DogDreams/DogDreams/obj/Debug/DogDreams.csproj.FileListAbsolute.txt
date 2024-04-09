@@ -1,0 +1,11 @@
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.csproj.AssemblyReference.cache
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.Level1.resources
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.Menu.resources
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.csproj.GenerateResource.cache
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\bin\Debug\DogDreams.exe.config
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\bin\Debug\DogDreams.exe
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\bin\Debug\DogDreams.pdb
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.Properties.Resources.resources
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.csproj.CoreCompileInputs.cache
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.exe
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.pdb
