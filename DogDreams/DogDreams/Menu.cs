@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Media;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DogDreams
@@ -18,26 +17,21 @@ namespace DogDreams
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            SoundPlayer player = new SoundPlayer(@"C:\Users\qazpl\Downloads\silnyiy-raskatistyiy-vzryiv.wav");
-            player.Play();
-            dog.Image = Image.FromFile(@"C:\Users\qazpl\OneDrive\Изображения\iskra-7-0.gif");
-            ClickEvent();
-        }
-
-        private void ClickEvent()
-        {
-            Timer timer = new Timer();
-            timer.Interval = 2200;
+        private void Dog_Click(object sender, EventArgs e)
+        {          
+            var timer = new Timer { Interval = 2280 };
             timer.Start();
-            timer.Tick += (sender, args) =>
+            SoundPlayer player = new SoundPlayer(System.IO.Path.GetFullPath(@"Sound\boom.wav"));
+            player.Play();
+            dog.Image = Image.FromFile(System.IO.Path.GetFullPath(@"Images\iskra.gif"));
+            timer.Tick += (r, u) =>
             {
                 var lv1 = new Level1();
                 lv1.Show();
                 Hide();
                 timer.Stop();
             };
+            
         }
     }
 }

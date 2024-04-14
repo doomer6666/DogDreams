@@ -58,7 +58,7 @@
             this.dog.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.dog.TabIndex = 1;
             this.dog.TabStop = false;
-            this.dog.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.dog.Click += new System.EventHandler(this.Dog_Click);
             // 
             // pictureBox1
             // 
