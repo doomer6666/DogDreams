@@ -17,9 +17,11 @@ namespace DogDreams
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            var form = new Menu();
-            form.FormBorderStyle = FormBorderStyle.FixedSingle;
-            form.MaximizeBox = false;
+            var form = new Menu
+            {
+                FormBorderStyle = FormBorderStyle.FixedSingle,
+                MaximizeBox = false
+            };
             Application.Run(form);
         }
     }

@@ -18,20 +18,8 @@ namespace DogDreams
         }
 
         private void Dog_Click(object sender, EventArgs e)
-        {          
-            var timer = new Timer { Interval = 2280 };
-            timer.Start();
-            SoundPlayer player = new SoundPlayer(System.IO.Path.GetFullPath(@"Sound\boom.wav"));
-            player.Play();
-            dog.Image = Image.FromFile(System.IO.Path.GetFullPath(@"Images\iskra.gif"));
-            timer.Tick += (r, u) =>
-            {
-                var lv1 = new Level1();
-                lv1.Show();
-                Hide();
-                timer.Stop();
-            };
-            
+        {
+            ClassConstructs.ChangeLevel(@"Sound\boom.wav", @"Images\iskra.gif", new Level1(), this,dog);
         }
     }
 }

@@ -44,13 +44,33 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassConstructs.cs" />
+    <Compile Include="End.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="End.Designer.cs">
+      <DependentUpon>End.cs</DependentUpon>
+    </Compile>
     <Compile Include="Level1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Level1.Designer.cs">
       <DependentUpon>Level1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level2.Designer.cs">
+      <DependentUpon>Level2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level3.Designer.cs">
+      <DependentUpon>Level3.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -60,8 +80,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="End.resx">
+      <DependentUpon>End.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Level1.resx">
       <DependentUpon>Level1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level2.resx">
+      <DependentUpon>Level2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level3.resx">
+      <DependentUpon>Level3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -88,6 +117,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\mario-back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\hit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\inviscola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\invisvietnam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\monkeyInvize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\invismonax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\forest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\invisDevil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\invisPapa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\invisHarvi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\invismaxvell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\invisTaro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\hram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\church.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Mission passed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\bomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\childrenHouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\invisiceroob.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\airplane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\rocket.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

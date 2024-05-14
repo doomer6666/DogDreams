@@ -9,3 +9,6 @@ C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.Properties.R
 C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.csproj.CoreCompileInputs.cache
 C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.exe
 C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.pdb
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.Level2.resources
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.Level3.resources
+C:\Users\qazpl\source\repos\DogDreams\DogDreams\obj\Debug\DogDreams.End.resources

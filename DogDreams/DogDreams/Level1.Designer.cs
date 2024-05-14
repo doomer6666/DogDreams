@@ -55,8 +55,8 @@
             // monkey
             // 
             this.monkey.BackColor = System.Drawing.Color.Transparent;
-            this.monkey.Image = ((System.Drawing.Image)(resources.GetObject("monkey.Image")));
-            this.monkey.Location = new System.Drawing.Point(714, 422);
+            this.monkey.Image = global::DogDreams.Properties.Resources.monkeyInvize;
+            this.monkey.Location = new System.Drawing.Point(918, 96);
             this.monkey.Name = "monkey";
             this.monkey.Size = new System.Drawing.Size(90, 132);
             this.monkey.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -125,7 +125,7 @@
             // cola
             // 
             this.cola.BackColor = System.Drawing.Color.Transparent;
-            this.cola.Image = ((System.Drawing.Image)(resources.GetObject("cola.Image")));
+            this.cola.Image = global::DogDreams.Properties.Resources.inviscola;
             this.cola.Location = new System.Drawing.Point(392, 84);
             this.cola.Name = "cola";
             this.cola.Size = new System.Drawing.Size(91, 121);
@@ -137,10 +137,10 @@
             // monax
             // 
             this.monax.BackColor = System.Drawing.Color.Transparent;
-            this.monax.Image = ((System.Drawing.Image)(resources.GetObject("monax.Image")));
-            this.monax.Location = new System.Drawing.Point(1133, 66);
+            this.monax.Image = global::DogDreams.Properties.Resources.invismonax;
+            this.monax.Location = new System.Drawing.Point(1106, 273);
             this.monax.Name = "monax";
-            this.monax.Size = new System.Drawing.Size(266, 192);
+            this.monax.Size = new System.Drawing.Size(242, 124);
             this.monax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.monax.TabIndex = 8;
             this.monax.TabStop = false;
@@ -161,7 +161,7 @@
             // missionPassed
             // 
             this.missionPassed.BackColor = System.Drawing.Color.ForestGreen;
-            this.missionPassed.Image = ((System.Drawing.Image)(resources.GetObject("missionPassed.Image")));
+            this.missionPassed.Image = global::DogDreams.Properties.Resources.Mission_passed;
             this.missionPassed.Location = new System.Drawing.Point(4029, 157);
             this.missionPassed.Name = "missionPassed";
             this.missionPassed.Size = new System.Drawing.Size(494, 311);
@@ -174,7 +174,7 @@
             // 
             this.capybara.BackColor = System.Drawing.Color.Transparent;
             this.capybara.Image = ((System.Drawing.Image)(resources.GetObject("capybara.Image")));
-            this.capybara.Location = new System.Drawing.Point(1133, 542);
+            this.capybara.Location = new System.Drawing.Point(729, 84);
             this.capybara.Name = "capybara";
             this.capybara.Size = new System.Drawing.Size(100, 87);
             this.capybara.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -185,10 +185,10 @@
             // partizan
             // 
             this.partizan.BackColor = System.Drawing.Color.Transparent;
-            this.partizan.Image = ((System.Drawing.Image)(resources.GetObject("partizan.Image")));
-            this.partizan.Location = new System.Drawing.Point(322, 554);
+            this.partizan.Image = global::DogDreams.Properties.Resources.invisvietnam;
+            this.partizan.Location = new System.Drawing.Point(627, 554);
             this.partizan.Name = "partizan";
-            this.partizan.Size = new System.Drawing.Size(73, 162);
+            this.partizan.Size = new System.Drawing.Size(141, 162);
             this.partizan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.partizan.TabIndex = 12;
             this.partizan.TabStop = false;
@@ -222,7 +222,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::DogDreams.Properties.Resources.forest;
             this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.strCapybara);
             this.Controls.Add(this.strPartizan);
@@ -238,7 +238,9 @@
             this.Controls.Add(this.info);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.monkey);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Level1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Level1";
             ((System.ComponentModel.ISupportInitialize)(this.monkey)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

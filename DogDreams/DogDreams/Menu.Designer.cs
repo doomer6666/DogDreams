@@ -40,7 +40,7 @@
             // logo
             // 
             this.logo.BackColor = System.Drawing.Color.Transparent;
-            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
+            this.logo.Image = global::DogDreams.Properties.Resources.Logo;
             this.logo.Location = new System.Drawing.Point(173, 57);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(963, 205);
@@ -51,7 +51,7 @@
             // dog
             // 
             this.dog.BackColor = System.Drawing.Color.Transparent;
-            this.dog.Image = ((System.Drawing.Image)(resources.GetObject("dog.Image")));
+            this.dog.Image = global::DogDreams.Properties.Resources.hit;
             this.dog.Location = new System.Drawing.Point(530, 377);
             this.dog.Name = "dog";
             this.dog.Size = new System.Drawing.Size(276, 227);
@@ -62,7 +62,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::DogDreams.Properties.Resources.mario_back;
             this.pictureBox1.Location = new System.Drawing.Point(-6, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1300, 700);
@@ -80,7 +80,9 @@
             this.Controls.Add(this.logo);
             this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dog)).EndInit();
